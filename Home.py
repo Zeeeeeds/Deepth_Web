@@ -31,7 +31,6 @@ st.image(image)
 button = st.button("Start our travel!")
 if button:
     st.write("Welcome to our website!")
-
 st.write("\n\n\n\n\n\n\n\n\n\n\n")
 st.markdown("---")
 st.caption("If you want to learn about our website, please turn to the Introduction part.")
