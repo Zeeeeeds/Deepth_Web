@@ -20,7 +20,6 @@ def main_bg(main_bg):
 base_dir = os.path.dirname(os.path.abspath(__file__))  # 获取当前脚本文件所在的目录
 backimage_path = os.path.join(base_dir,'..' ,'files', 'back4.jpg')  # 构建图片文件路径
 main_bg(backimage_path)
-
 st.header("Depth image")
 st.divider()
 #设置图片上传按钮

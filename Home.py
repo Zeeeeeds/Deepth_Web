@@ -22,12 +22,10 @@ def main_bg(main_bg_path):
 base_dir = os.path.dirname(os.path.abspath(__file__))  # 获取当前脚本文件所在的目录
 backimage_path = os.path.join(base_dir, 'files', 'back4.jpg')  # 构建图片文件路径
 main_bg(backimage_path)
-
 st.title("Bin-Imaging")
 image_path = os.path.join(base_dir, 'files', 'logo.jpg')  # 构建Logo图片路径
 image = Image.open(image_path)
 st.image(image)
-
 button = st.button("Start our travel!")
 if button:
     st.write("Welcome to our website!")
